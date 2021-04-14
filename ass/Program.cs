@@ -15,6 +15,7 @@ namespace ass
 {
     static class Program
     {
+        // To access my lights in my local network. If you visit my place, don't use these for evil things :)
         const string HUEAPIURI = "http://lights.lan/api/";
         const string HUEAPIKEY = "mVre-YKTOr9jk0MzXDJ03Qp9B-ylKSiwkPShlqRa";
         const string HUEAPIHANDLE= "/groups/1/action";
