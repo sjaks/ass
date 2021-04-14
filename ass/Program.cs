@@ -41,7 +41,7 @@ namespace ass
             if (status)
             {
                 // CEC command as turns TV on
-                exec("cmd.exe", "/C echo as | cec-client -s");
+                exec("cmd.exe", "/C echo on 0 | cec-client -s");
             } else
             {
                 // CEC command standby 0 turns tv off
