@@ -16,3 +16,6 @@ Listens for hotkeys (Ctrl + Shift + F1-F12) and triggers the following events:
 - [NirCmd](https://www.nirsoft.net/utils/nircmd.html)
 - [LibCEC](http://libcec.pulse-eight.com/Downloads)
 - [Curl](https://curl.se/windows/)
+
+For the TV shortcuts to work, you'll need to add the Pulse-Eight LibCEC directory to your Windows PATH variable.
+Use the "Edit environment variable" tool and add `C:\Program Files (x86)\Pulse-Eight\USB-CEC Adapter` to `Path`.
