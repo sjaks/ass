@@ -88,17 +88,16 @@ namespace manageri
 
 
             // Set keyboard shortcuts for keyboard hooks
-            hookVolHeadphones.RegisterHotKey(ModifierKeys.Control | ModifierKeys.Shift, Keys.F1);
-            hookVolDesktop.RegisterHotKey(ModifierKeys.Control | ModifierKeys.Shift, Keys.F2);
-            hookVolTelevision.RegisterHotKey(ModifierKeys.Control | ModifierKeys.Shift, Keys.F3);
+            hookVolHeadphones.RegisterHotKey(ModifierKeys.Control | ModifierKeys.Shift, Keys.D1);
+            hookVolDesktop.RegisterHotKey(ModifierKeys.Control | ModifierKeys.Shift, Keys.D2);
+            hookVolTelevision.RegisterHotKey(ModifierKeys.Control | ModifierKeys.Shift, Keys.D3);
 
-            hookCecOn.RegisterHotKey(ModifierKeys.Control | ModifierKeys.Shift, Keys.F5);
-            hookCecOff.RegisterHotKey(ModifierKeys.Control | ModifierKeys.Shift, Keys.F6);
+            hookCecOn.RegisterHotKey(ModifierKeys.Control | ModifierKeys.Shift, Keys.D5);
+            hookCecOff.RegisterHotKey(ModifierKeys.Control | ModifierKeys.Shift, Keys.D6);
 
-            hookHueDefault.RegisterHotKey(ModifierKeys.Control | ModifierKeys.Shift, Keys.F9);
-            hookHueDimmed.RegisterHotKey(ModifierKeys.Control | ModifierKeys.Shift, Keys.F10);
-            hookHueNight.RegisterHotKey(ModifierKeys.Control | ModifierKeys.Shift, Keys.F11);
-            hookHueOff.RegisterHotKey(ModifierKeys.Control | ModifierKeys.Shift, Keys.F12);
+            hookHueDefault.RegisterHotKey(ModifierKeys.Control | ModifierKeys.Shift, Keys.D8);
+            hookHueDimmed.RegisterHotKey(ModifierKeys.Control | ModifierKeys.Shift, Keys.D9);
+            hookHueOff.RegisterHotKey(ModifierKeys.Control | ModifierKeys.Shift, Keys.D0);
 
 
             // Run program and hide to systray
