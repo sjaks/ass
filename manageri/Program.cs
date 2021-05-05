@@ -11,7 +11,7 @@ using Hotkeys;
  *       - Curl
  */
 
-namespace ass
+namespace manageri
 {
     static class Program
     {

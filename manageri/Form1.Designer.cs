@@ -1,5 +1,5 @@
 ﻿
-namespace ass
+namespace manageri
 {
     partial class Form1
     {
